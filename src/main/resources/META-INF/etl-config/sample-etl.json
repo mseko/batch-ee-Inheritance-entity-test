@@ -1,0 +1,28 @@
+{
+  "extract": {
+    "type": "file2db",
+    "bean": "com.example.dto.SampleUserDto",
+    "fileName": "sample-etl.csv"
+  },
+  "validation" : {
+    "type": "validation",
+    "bean": "com.example.dto.SampleUserDto",
+    "errorEntity": "com.example.dto.SampleUserError",
+    "mode": "ABORT"
+  },
+  "truncate": {
+    "type": "truncate",
+    "entities": [
+      "com.example.dto.SampleUserDto"
+    ]
+  },
+  "load": {
+    "type": "db2db",
+    "bean": "com.example.entity.SampleUser",
+    "sqlId": "SELECT_SAMPLE_USER_WORK",
+    "updateSize": {
+      "size": 200000,
+      "bean": "com.example.dto.SampleUserDto"
+    }
+  }
+}
