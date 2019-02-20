@@ -10,9 +10,6 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * {@link SampleProcessor}のテストクラス
- * 疎通確認用に作成しています。
- * <p>
- * @deprecated TODO 疎通確認が終わったら削除してください。
  */
 public class SampleBatchletTest extends DbAccessTestSupport{
 
@@ -24,8 +21,6 @@ public class SampleBatchletTest extends DbAccessTestSupport{
         SampleBatchlet target = new SampleBatchlet();
         target.process();
 
-        //SAMPLE_USERテーブルの全件検索を行い、一件もデータが存在しないことを確認する。
-        int actual = UniversalDao.findAll(SampleUser.class).size();
-        assertEquals(0, actual);
+        //assertは略
     }
 }

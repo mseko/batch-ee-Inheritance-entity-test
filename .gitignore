@@ -88,14 +88,6 @@ WebContent/META-INF/MANIFEST.MF
 work
 gsp-target/
 
-### JetBrains template
-.idea/dataSources/
-.idea/*.ids
-.idea/*.xml
-.idea/artifacts
-.idea/copyright
-!.idea/misc.xml
-!.idea/modules.xml
 
 ## File-based project format:
 *.iws
