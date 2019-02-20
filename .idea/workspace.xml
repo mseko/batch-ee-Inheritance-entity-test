@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad9f272a-b01a-47bb-868c-715af4aeb069" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h2/db/SAMPLE.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/h2/db/SAMPLE.h2.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/batchlet/SampleBatchlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/batchlet/SampleBatchlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chunk/SampleProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chunk/SampleReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chunk/SampleWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/chunk/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/SampleDomainBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/SampleDomainManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/domain/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/SampleUserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/SampleUserError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/SampleUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/SampleUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/form/SampleUserForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/form/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/batch-jobs/sample-chunk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/batch-jobs/sample-etl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/etl-config/sample-etl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/entity/SampleUser.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/entity/data-model_db2.edm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/entity/data-model_oracle.edm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/entity/data-model_postgresql.edm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/entity/data-model_sqlserver.edm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/batchlet/SampleBatchletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/batchlet/SampleBatchletTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/input/sample-etl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="238">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,6 +35,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iml</find>
+      <find>db</find>
+      <find>bin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,6 +55,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/entity/SampleUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/batchlet/SampleBatchlet.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -134,6 +117,12 @@
               <item name="batch-ee-Inheritance-entity-test" type="462c0819:PsiDirectoryNode" />
               <item name="h2" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="batch-ee-Inheritance-entity-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="batch-ee-Inheritance-entity-test" type="462c0819:PsiDirectoryNode" />
+              <item name="h2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="batch-ee-Inheritance-entity-test" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550677517983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550678042031" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -344,7 +333,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550669538026</updated>
       <workItem from="1550669541851" duration="759000" />
-      <workItem from="1550670380865" duration="7000000" />
+      <workItem from="1550670380865" duration="7606000" />
     </task>
     <servers />
   </component>
@@ -372,11 +361,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7759000" />
+    <option name="totallyTimeSpent" value="8365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -387,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20324005" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20324005" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42415318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,11 +499,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="238">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
